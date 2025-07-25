@@ -2,15 +2,122 @@
 <html lang="en">
 
 <head>
-  <title>Naveen Kumar</title>
+  <title>About Vikrant Kumar - Director of Technology | Frontend Expert & Team Leader</title>
   <meta charset="UTF-8" />
-  <meta name="description" content="Gorge Portfolio Template" />
-  <meta name="keywords" content="personal, portfolio" />
+  <meta name="description" content="Learn about Vikrant Kumar's 9+ year journey from Frontend Developer to Director of Technology at Gloify. Expert in React.js, Angular, JavaScript, Next.js, and technical leadership in Bengaluru, India." />
+  <meta name="keywords" content="About Vikrant Kumar, Director of Technology, Senior Frontend Developer, React.js Expert, Angular Developer, JavaScript, Next.js, Vue.js, Team Leadership, Gloify, Bengaluru, India, Web Development Career" />
+  <meta name="author" content="Vikrant Kumar" />
+  <meta name="robots" content="index, follow" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://vikrantkumar.dev/about.html" />
+  <meta property="og:title" content="About Vikrant Kumar - Director of Technology | Frontend Expert & Team Leader" />
+  <meta property="og:description" content="Discover Vikrant Kumar's professional journey from Frontend Developer to Director of Technology, specializing in React.js, Angular, and leading high-performing teams at Gloify." />
+  <meta property="og:image" content="./assets/images/vikrant.jpeg" />
+  <meta property="og:site_name" content="Vikrant Kumar Portfolio" />
+  <meta property="og:locale" content="en_US" />
 
-  <link rel="icon" href="https://gloify.com/wp-content/uploads/2019/05/Fav-32@1x-1-1.png" sizes="32x32" />
-  <link rel="icon" href="https://gloify.com/wp-content/uploads/2019/05/Fav-32@1x-1-1.png" sizes="192x192" />
-  <link rel="apple-touch-icon" href="https://gloify.com/wp-content/uploads/2019/05/Fav-32@1x-1-1.png" />
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://vikrantkumar.dev/about.html" />
+  <meta property="twitter:title" content="About Vikrant Kumar - Director of Technology | Frontend Expert & Team Leader" />
+  <meta property="twitter:description" content="Discover Vikrant Kumar's professional journey from Frontend Developer to Director of Technology, specializing in React.js, Angular, and leading high-performing teams." />
+  <meta property="twitter:image" content="./assets/images/vikrant.jpeg" />
+  <meta property="twitter:creator" content="@VikrantShonit82" />
+
+  <!-- LinkedIn -->
+  <meta property="linkedin:owner" content="vikrant-shonit" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://vikrantkumar.dev/about.html" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="./assets/images/vikrant.jpeg" sizes="32x32"/>
+  <link rel="icon" href="./assets/images/vikrant.jpeg" sizes="192x192"/>
+  <link rel="apple-touch-icon" href="./assets/images/vikrant.jpeg"/>
+
+  <!-- JSON-LD Structured Data for About Page -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Vikrant Kumar",
+      "jobTitle": "Director of Technology",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Gloify"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bengaluru",
+        "addressRegion": "Karnataka",
+        "addressCountry": "India"
+      },
+      "email": "vikrant.shonit82@gmail.com",
+      "url": "https://vikrantkumar.dev",
+      "sameAs": [
+        "https://www.linkedin.com/in/vikrant-shonit",
+        "https://x.com/VikrantShonit82",
+        "https://www.instagram.com/vikrant.shonit",
+        "https://www.facebook.com/vikrant.shonit"
+      ],
+      "knowsAbout": [
+        "Frontend Development",
+        "React.js",
+        "Angular",
+        "JavaScript",
+        "Next.js",
+        "Vue.js",
+        "Tailwind CSS",
+        "Material-UI",
+        "Bootstrap",
+        "Technical Leadership",
+        "Team Management",
+        "Project Management",
+        "Software Architecture"
+      ],
+      "hasOccupation": [
+        {
+          "@type": "Occupation",
+          "name": "Director of Technology",
+          "description": "Overseeing project delivery, managing teams, and implementing scalable, high-quality software solutions"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Senior Software Developer Team Lead",
+          "description": "Leading development teams and mentoring junior developers"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Senior Frontend Developer",
+          "description": "Developing complex frontend applications using modern frameworks"
+        }
+      ],
+      "alumniOf": {
+        "@type": "Organization",
+        "name": "Groupwork Technologies"
+      },
+      "knowsLanguage": [
+        {
+          "@type": "Language",
+          "name": "English",
+          "proficiencyLevel": "Professional working proficiency"
+        },
+        {
+          "@type": "Language",
+          "name": "Hindi",
+          "proficiencyLevel": "Native or Bilingual proficiency"
+        }
+      ],
+      "image": "./assets/images/vikrant.jpeg",
+      "description": "Experienced Director of Technology with over 9 years in the tech industry, bringing expertise in frontend development and strategic technology leadership."
+    }
+  }
+  </script>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
@@ -38,10 +145,11 @@
   </div>
 
   <!-- HEADER -->
-  <header>
-    <img src="https://s3.amazonaws.com/owler-image/logo/gloify_owler_20200316_123152_original.png" style="width: 4rem"
-      alt="" />
-    <div class="nav-icon">
+  <header role="banner">
+      <a href="index.html" aria-label="Home - Vikrant Kumar">
+        <img src="./assets/images/vikrant.jpeg" style="width: 3rem; border-radius: 1rem;" alt="Vikrant Kumar - Director of Technology"/>
+      </a>
+    <div class="nav-icon" aria-label="Toggle navigation menu">
       <span></span>
       <span></span>
       <span></span>
@@ -54,26 +162,19 @@
       <nav class="col-md-8">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html" aria-current="page">About me</a></li>
         </ul>
       </nav>
       <div class="col-md-4 full-contact">
         <ul>
           <li class="title">Get in Touch</li>
-          <li>hi@gorge.com</li>
+          <li><a href="mailto:vikrant.shonit82@gmail.com" style="color: #fff;">vikrant.shonit82@gmail.com</a></li>
           <li>
             <div class="social">
-              <a href="#"><i class="fab fa-facebook"></i> </a>
-              <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="#"><i class="fab fa-behance" aria-hidden="true"></i>
-              </a>
-              <a href="#"><i class="fab fa-dribbble" aria-hidden="true"></i>
-              </a>
+              <a href="https://www.linkedin.com/in/vikrant-shonit" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+              <a href="https://x.com/VikrantShonit82" target="_blank" rel="noopener noreferrer" aria-label="Twitter profile"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/vikrant.shonit" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://www.facebook.com/vikrant.shonit" target="_blank" rel="noopener noreferrer" aria-label="Facebook profile"><i class="fab fa-facebook" aria-hidden="true"></i></a>
             </div>
           </li>
         </ul>
@@ -82,166 +183,96 @@
   </div>
 
   <!-- SITE CONTENT -->
-  <div class="wrapper">
-    <section class="titlebar">
-      <h1 class="page-title"><span>About </span>us</h1>
-      <div id="particles-js"></div>
+  <main class="wrapper" role="main">
+    <section class="titlebar" aria-label="Page header">
+      <h1 class="page-title"><span>About </span>me</h1>
+      <div id="particles-js" aria-hidden="true"></div>
     </section>
 
     <hr class="col-md-6 bottom_60" />
 
     <div class="cont">
-      <section class="about">
+      <section class="about" aria-label="Professional information">
         <!-- ABOUT TEXT -->
-        <div class="about-text text-center top_90">
-          <h2 class="subtitle">
-            It showed a lady fitted out with a fur hat and fur boa who sat
-            upright, raising a heavy fur muff that covered the whole of her
-            lower arm towards the viewer. Gregor then turned to look out the
-            window at the dull weather.
+        <article class="about-text text-center top_90">
+          <h2 class="subtitle" itemprop="description">
+            I'm Vikrant Kumar, currently serving as the Director of Technology at Gloify in Bengaluru, India. With over 9 years of experience in the tech industry, I bring a unique blend of hands-on frontend development expertise and strategic technology leadership. My journey began as a front-end developer, progressing through roles that expanded my responsibilities, including from building user interfaces and writing code to leading high-performing teams and managing full project lifecycles.
           </h2>
           <br />
-          <p>
-            What about if he reported sick? But that would be extremely
-            strained and suspicious as in fifteen years of service Gregor had
-            never once yet been ill.
-          </p>
-          <p>
-            A collection of textile samples lay spread out on the table and
-            above it there hung a picture that he had recently cut out of an
-            illustrated magazine and housed in a nice, gilded frame.
-          </p>
-          <p>
-            What about if he reported sick? But that would be extremely
-            strained and suspicious as in fifteen years of service Gregor had
-            never once yet been ill.
-          </p>
-        </div>
-        <!-- WORK AREAS -->
-        <div class="owl-carousel work-areas text-center top_120 bottom_90 col-md-10 offset-md-1" data-pagination="true"
-          data-autoplay="3000" data-items-desktop="3" data-items-desktop-small="3" data-items-tablet="2"
-          data-items-tablet-small="1">
-          <!-- an area -->
-          <div class="area col-md-12 item">
-            <i class="flaticon-024-computer-graphic"></i>
-            <h3 class="title" class="title">Web Design</h3>
-            <div class="line"></div>
-            <p>
-              His room, a proper human room although a little too small, lay
-              peacefully between its four familiar walls.
-            </p>
-          </div>
-          <!-- an area -->
-          <div class="area col-md-12 item">
-            <i class="flaticon-007-stationery"></i>
-            <h3 class="title">Branding Identity</h3>
-            <div class="line"></div>
-            <p>
-              His many legs, pitifully thin compared with the size of the rest
-              of him, waved about helplessly as he looked.
-            </p>
-          </div>
-          <!-- an area -->
-          <div class="area col-md-12 item">
-            <i class="flaticon-025-graphic-design"></i>
-            <h3 class="title">Illustration</h3>
-            <div class="line"></div>
-            <p>
-              One morning, when Gregor Samsa woke from troubled dreams, he
-              found transformed in his bed into.
-            </p>
-          </div>
-          <!-- an area -->
-          <div class="area col-md-12 item">
-            <i class="flaticon-024-computer-graphic"></i>
-            <h3 class="title" class="title">Web Design</h3>
-            <div class="line"></div>
-            <p>
-              His room, a proper human room although a little too small, lay
-              peacefully between its four familiar walls.
-            </p>
-          </div>
-          <!-- an area -->
-          <div class="area col-md-12 item">
-            <i class="flaticon-007-stationery"></i>
-            <h3 class="title">Branding Identity</h3>
-            <div class="line"></div>
-            <p>
-              His many legs, pitifully thin compared with the size of the rest
-              of him, waved about helplessly as he looked.
-            </p>
-          </div>
-          <!-- an area -->
-          <div class="area col-md-12 item">
-            <i class="flaticon-025-graphic-design"></i>
-            <h3 class="title">Illustration</h3>
-            <div class="line"></div>
-            <p>
-              One morning, when Gregor Samsa woke from troubled dreams, he
-              found transformed in his bed into.
-            </p>
-          </div>
-        </div>
+          
+          <!-- Professional Summary -->
+          <section class="professional-section" aria-labelledby="prof-summary">
+            <h3 class="section-title" id="prof-summary">Professional Summary</h3>
+            <ul class="professional-list">
+              <li><strong>Current Role:</strong> Director of Technology at Gloify, responsible for overseeing project delivery, managing teams, and implementing scalable, high-quality software solutions.</li>
+              <li><strong>Previous Experience:</strong>
+                <ul>
+                  <li>Senior Software Developer Team Lead</li>
+                  <li>Senior Frontend Developer</li>
+                  <li>Front-end Developer</li>
+                  <li>Web Developer at Groupwork Technologies</li>
+                </ul>
+              </li>
+              <li><strong>Career Journey:</strong> I started my career as a front-end developer, building strong foundations in JavaScript, CSS, and Angular. Over the years, I have grown into leadership roles—mentoring teams and driving strategic technical initiatives.</li>
+            </ul>
+          </section>
 
-        <!-- WORK AREAS -->
-        <div class="clients">
-          <div class="row">
-            <!-- client -->
-            <div class="col-md-3 col-sm-6 client">
-              <figure>
-                <img src="./assets/images/client-5.jpeg" />
-              </figure>
-            </div>
-            <!-- client -->
-            <div class="col-md-3 col-sm-6 client">
-              <figure>
-                <img src="./assets/images/client-6.jpeg" />
-              </figure>
-            </div>
-            <!-- client -->
-            <div class="col-md-3 col-sm-6 client">
-              <figure>
-                <img src="./assets/images/client-7.jpeg" />
-              </figure>
-            </div>
-            <!-- client -->
-            <div class="col-md-3 col-sm-6 client">
-              <figure>
-                <img src="./assets/images/client-8.jpeg" />
-              </figure>
-            </div>
-          </div>
-        </div>
+          <!-- Key Skills & Competencies -->
+          <section class="professional-section" aria-labelledby="skills">
+            <h3 class="section-title" id="skills">Key Skills & Competencies</h3>
+            <ul class="professional-list">
+              <li><strong>Technical Leadership & Strategy:</strong> Experienced in managing technology projects and aligning teams with organizational goals.</li>
+              <li><strong>Frontend Development Mastery:</strong> Proficient in JavaScript, Next.js, React.js, Angular, Vue.js, plus modern CSS frameworks (Tailwind, Material-UI, Bootstrap).</li>
+              <li><strong>Team Development:</strong> Skilled in building and mentoring cross-functional teams, fostering a collaborative and productive work environment.</li>
+              <li><strong>Project Management:</strong> Adept at overseeing complex software projects, ensuring timely and within-budget delivery.</li>
+            </ul>
+          </section>
+
+          <!-- Languages -->
+          <section class="professional-section" aria-labelledby="languages">
+            <h3 class="section-title" id="languages">Languages</h3>
+            <ul class="professional-list">
+              <li><strong>English:</strong> Professional working proficiency</li>
+              <li><strong>Hindi:</strong> Native or Bilingual proficiency</li>
+            </ul>
+          </section>
+
+          <!-- Contact -->
+          <section class="professional-section" aria-labelledby="contact">
+            <h3 class="section-title" id="contact">Contact</h3>
+            <address class="professional-list">
+              <p><strong>Email:</strong> <a href="mailto:vikrant.shonit82@gmail.com" itemprop="email">vikrant.shonit82@gmail.com</a></p>
+              <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vikrant-shonit" target="_blank" rel="noopener noreferrer" itemprop="sameAs">www.linkedin.com/in/vikrant-shonit</a></p>
+            </address>
+          </section>
+        </article>
       </section>
     </div>
     <!-- cont end -->
-  </div>
+  </main>
   <!-- wrapper end -->
 
-  <footer>
+  <footer role="contentinfo">
     <div class="cont">
       <div class="row">
         <div class="col-md-4 col-sm-6 col-xs-12 copyright">
-          <img src="./assets/images/logo.png" alt="" />
-          <p>Copyright 2022 Gloify, All Right Reserved</p>
+          <img src="./assets/images/vikrant.jpeg" style="width: 1.5rem; border-radius: 5px;" alt="Vikrant Kumar"/>
+          <p>© 2025 - Vikrant Kumar</p>
         </div>
         <div class="col-md-4 d-sm-none d-md-block">
-          <div class="social">
-            <a href="#"><i class="fab fa-facebook"></i> </a>
-            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i> </a>
-            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i>
-            </a>
-            <a href="#"><i class="fab fa-behance" aria-hidden="true"></i> </a>
-            <a href="#"><i class="fab fa-dribbble" aria-hidden="true"></i>
-            </a>
+          <div class="social" aria-label="Footer social media links">
+            <a href="https://www.linkedin.com/in/vikrant-shonit" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://x.com/VikrantShonit82" target="_blank" rel="noopener noreferrer" aria-label="Twitter profile"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/vikrant.shonit" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/vikrant.shonit" target="_blank" rel="noopener noreferrer" aria-label="Facebook profile"><i class="fab fa-facebook" aria-hidden="true"></i></a>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 d-none d-sm-block getintouch">
-          <a href="#">
+        <address class="col-md-4 col-sm-6 col-xs-12 d-none d-sm-block getintouch">
+          <a href="mailto:vikrant.shonit82@gmail.com" aria-label="Send email">
             <strong>Get In Touch</strong><br />
-            <p>naveen@gloify.com</p>
+            <span>vikrant.shonit82@gmail.com</span>
           </a>
-        </div>
+        </address>
       </div>
     </div>
   </footer>
